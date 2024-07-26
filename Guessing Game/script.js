@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const guessesDisplay = document.getElementById('guesses')
 
   button.addEventListener('click', () => {
-    ////o
     const userGuess = Number(input.value)
     guessCount++
     guessesDisplay.textContent = `No. of Guesses: ${guessCount}`
